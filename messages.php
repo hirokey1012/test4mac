@@ -11,6 +11,7 @@ if ( $_REQUEST['past'] ) {
 }
 ?>
 <chat>
+
 <?php
 while ($row = mysql_fetch_assoc($result)) {
 ?>
